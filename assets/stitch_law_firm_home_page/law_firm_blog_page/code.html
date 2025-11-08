@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Lex &amp; Co. - Firm Insights</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;family=Playfair+Display:wght@700;900&amp;display=swap" rel="stylesheet"/>
+<script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#f2d00d", // Gold Accent
+              "secondary": "#0a192f", // Navy Blue
+              "background-light": "#f8f8f5", // Off-white
+              "background-dark": "#050d17", // Darker Navy
+              "text-light": "#1d2d35",
+              "text-dark": "#e0e7ff",
+              "text-muted-light": "#5a6475",
+              "text-muted-dark": "#94a3b8"
+            },
+            fontFamily: {
+              "display": ["Playfair Display", "serif"],
+              "body": ["Manrope", "sans-serif"],
+            },
+            borderRadius: {
+              "DEFAULT": "0.5rem",
+              "lg": "0.75rem",
+              "xl": "1rem",
+              "full": "9999px"
+            },
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-body text-text-light dark:text-text-dark">
+<div class="relative flex min-h-screen w-full flex-col">
+<!-- TopNavBar -->
+<header class="sticky top-0 z-50 w-full border-b border-secondary/10 dark:border-primary/10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm">
+<div class="container mx-auto flex items-center justify-between whitespace-nowrap px-4 sm:px-6 lg:px-8 py-4">
+<div class="flex items-center gap-4 text-secondary dark:text-primary">
+<div class="size-6 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-xl font-display font-bold leading-tight tracking-tighter text-secondary dark:text-white">Lex &amp; Co.</h2>
+</div>
+<nav class="hidden md:flex flex-1 justify-center items-center gap-8">
+<a class="text-sm font-medium leading-normal text-text-light dark:text-text-dark hover:text-secondary dark:hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-sm font-medium leading-normal text-text-light dark:text-text-dark hover:text-secondary dark:hover:text-primary transition-colors" href="#">About</a>
+<a class="text-sm font-medium leading-normal text-text-light dark:text-text-dark hover:text-secondary dark:hover:text-primary transition-colors" href="#">Practice Areas</a>
+<a class="text-sm font-bold leading-normal text-secondary dark:text-primary" href="#">Blog</a>
+<a class="text-sm font-medium leading-normal text-text-light dark:text-text-dark hover:text-secondary dark:hover:text-primary transition-colors" href="#">Contact</a>
+</nav>
+<div class="flex items-center justify-end">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-6 bg-secondary dark:bg-primary text-white dark:text-secondary text-sm font-bold leading-normal tracking-wide hover:bg-opacity-90 dark:hover:bg-opacity-90 transition-colors">
+<span class="truncate">Free Consultation</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Main Content -->
+<main class="container mx-auto flex-1 px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+<div class="flex flex-col lg:flex-row gap-12 lg:gap-16">
+<!-- Blog Posts (Left Column) -->
+<div class="w-full lg:w-2/3">
+<!-- Page Heading -->
+<div class="mb-10">
+<h1 class="text-secondary dark:text-white text-4xl md:text-5xl font-display font-black leading-tight tracking-tight">Firm Insights</h1>
+<p class="mt-2 text-lg text-text-muted-light dark:text-text-muted-dark">Stay informed with our latest articles, news, and legal analysis.</p>
+</div>
+<!-- Blog Post Cards -->
+<div class="flex flex-col gap-12">
+<!-- Card 1 -->
+<div class="flex flex-col md:flex-row items-start gap-6 group">
+<div class="w-full md:w-1/3 flex-shrink-0">
+<div class="w-full bg-center bg-no-repeat aspect-video md:aspect-square bg-cover rounded-lg overflow-hidden transform group-hover:scale-105 transition-transform duration-300" data-alt="Modern office building with glass facade" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDdvHFffMvODcBK0WxC2xP4PkrOjRueWns9BvKjuSBrRDyMHQ9tvlL6Pq_TH7SehBxKWRBWAeX_kC5o3gPDLvVcj2UPszmAghcv4Rp_YlFA3ML1FwcDWWis_0889yAuvfKjLCnFLhAApFBqJJm_kOR4giMcUvUjgpnvgyz7MJlaISpa2-vt0MX4VNoFkB0zk2rMeT7gqTxs9OupPflqfMd0O0CAV0sj-yK-ugMHiBBFCCin2EqSObzl5wTZAqaQ81_S7DYb-z-1eD7t");'></div>
+</div>
+<div class="flex w-full flex-col items-start justify-center gap-2">
+<p class="text-text-muted-light dark:text-text-muted-dark text-sm font-medium leading-normal">Corporate Law - May 28, 2024</p>
+<a class="text-secondary dark:text-white text-2xl font-display font-bold leading-tight tracking-tight group-hover:text-primary dark:group-hover:text-primary transition-colors" href="#">Navigating New Corporate Compliance Laws</a>
+<p class="text-text-muted-light dark:text-text-muted-dark text-base font-normal leading-relaxed mt-1">A brief overview of the latest regulatory changes affecting corporations and how to stay compliant. By John Doe.</p>
+<a class="inline-block mt-3 text-sm font-bold text-secondary dark:text-primary hover:underline" href="#">Read More →</a>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="flex flex-col md:flex-row items-start gap-6 group">
+<div class="w-full md:w-1/3 flex-shrink-0">
+<div class="w-full bg-center bg-no-repeat aspect-video md:aspect-square bg-cover rounded-lg overflow-hidden transform group-hover:scale-105 transition-transform duration-300" data-alt="Lightbulb illustration on a blue background symbolizing an idea" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCaCJyJwSWGOCq2CIkfgVSSICKr2kla1Gz9NxODBurwNLHwVSc40Se4hmqCDz8KH8-EblY6zNTD6EhLdv5MpyWElyQytOWumPtLcJVb8UMDvDheaTZtO7VnMhHVPy9p_ddncLj3WF6ZettAxhhuPoXgO0puUSz6bxMUS56jjdogHJQGcVVYmLeH3H7DjPauzFV0NGJYEevn9c9cCNTRUYTFa3Q6_S84G5cFFwmnLY87t0mthkPsVp2LSeFLq-D5sp1stXuh0gkqj1D3");'></div>
+</div>
+<div class="flex w-full flex-col items-start justify-center gap-2">
+<p class="text-text-muted-light dark:text-text-muted-dark text-sm font-medium leading-normal">Intellectual Property - May 22, 2024</p>
+<a class="text-secondary dark:text-white text-2xl font-display font-bold leading-tight tracking-tight group-hover:text-primary dark:group-hover:text-primary transition-colors" href="#">Understanding Intellectual Property Rights</a>
+<p class="text-text-muted-light dark:text-text-muted-dark text-base font-normal leading-relaxed mt-1">Exploring the different types of IP rights and the importance of protecting your creative and innovative assets. By Jane Smith.</p>
+<a class="inline-block mt-3 text-sm font-bold text-secondary dark:text-primary hover:underline" href="#">Read More →</a>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="flex flex-col md:flex-row items-start gap-6 group">
+<div class="w-full md:w-1/3 flex-shrink-0">
+<div class="w-full bg-center bg-no-repeat aspect-video md:aspect-square bg-cover rounded-lg overflow-hidden transform group-hover:scale-105 transition-transform duration-300" data-alt="Architectural model of a commercial building on a desk" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD1vm53ONvcINtCtKZKdaEGbVccLgouVlSOe4EmNvBYEJqgUvkpYafQNjg_PYriNVTHLHceJe6olP_QSnjIJsemFdkw-uEhordCxlVMvB6vlbZOUJs2qfZFARHOqxI5NgpN7knWasdwrnOq_Uh-wHS8wCwhAr4c_S-QbmtXZRnB5SGXPxoyR45hPHwvcytwzKeG5xmqxdCdr0DPHU29vDNjJGY2Te8x7yEmxX-OQlR-Bfr2D2Vc3PLsvvfASw_dbP1SH8B1pIZWgOMh");'></div>
+</div>
+<div class="flex w-full flex-col items-start justify-center gap-2">
+<p class="text-text-muted-light dark:text-text-muted-dark text-sm font-medium leading-normal">Real Estate - May 15, 2024</p>
+<a class="text-secondary dark:text-white text-2xl font-display font-bold leading-tight tracking-tight group-hover:text-primary dark:group-hover:text-primary transition-colors" href="#">Key Considerations in Commercial Real Estate Transactions</a>
+<p class="text-text-muted-light dark:text-text-muted-dark text-base font-normal leading-relaxed mt-1">A guide to the due diligence process and common pitfalls to avoid when buying or selling commercial property. By Robert Johnson.</p>
+<a class="inline-block mt-3 text-sm font-bold text-secondary dark:text-primary hover:underline" href="#">Read More →</a>
+</div>
+</div>
+</div>
+<!-- Pagination -->
+<div class="mt-16 flex items-center justify-center gap-2">
+<button class="flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg bg-transparent text-text-muted-light dark:text-text-muted-dark hover:bg-secondary/5 dark:hover:bg-primary/10">
+<span>←</span>
+</button>
+<button class="flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg bg-secondary/10 dark:bg-primary/20 text-secondary dark:text-primary font-bold">1</button>
+<button class="flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg bg-transparent text-text-muted-light dark:text-text-muted-dark hover:bg-secondary/5 dark:hover:bg-primary/10">2</button>
+<button class="flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg bg-transparent text-text-muted-light dark:text-text-muted-dark hover:bg-secondary/5 dark:hover:bg-primary/10">3</button>
+<button class="flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg bg-transparent text-text-muted-light dark:text-text-muted-dark hover:bg-secondary/5 dark:hover:bg-primary/10">
+<span>→</span>
+</button>
+</div>
+</div>
+<!-- Sidebar (Right Column) -->
+<aside class="w-full lg:w-1/3 lg:sticky lg:top-28 self-start">
+<div class="flex flex-col gap-10">
+<!-- Search Bar -->
+<div class="relative">
+<input class="w-full h-12 px-4 pr-12 rounded-lg border border-secondary/20 dark:border-primary/20 bg-transparent focus:ring-2 focus:ring-primary focus:border-primary placeholder:text-text-muted-light dark:placeholder:text-text-muted-dark transition-colors" placeholder="Search articles..." type="text"/>
+<div class="absolute inset-y-0 right-0 flex items-center pr-4 text-text-muted-light dark:text-text-muted-dark">
+<svg class="h-5 w-5" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="8"></circle><line x1="21" x2="16.65" y1="21" y2="16.65"></line></svg>
+</div>
+</div>
+<!-- Recent Posts -->
+<div>
+<h3 class="text-xl font-display font-bold text-secondary dark:text-white mb-4 border-b-2 border-primary pb-2">Recent Posts</h3>
+<ul class="space-y-4">
+<li><a class="hover:text-primary dark:hover:text-primary transition-colors" href="#">Navigating New Corporate Compliance Laws</a></li>
+<li><a class="hover:text-primary dark:hover:text-primary transition-colors" href="#">The Future of AI in Legal Research</a></li>
+<li><a class="hover:text-primary dark:hover:text-primary transition-colors" href="#">Understanding Intellectual Property Rights</a></li>
+<li><a class="hover:text-primary dark:hover:text-primary transition-colors" href="#">Key Considerations in Real Estate Transactions</a></li>
+<li><a class="hover:text-primary dark:hover:text-primary transition-colors" href="#">Family Law: Navigating Divorce Proceedings</a></li>
+</ul>
+</div>
+<!-- Categories -->
+<div>
+<h3 class="text-xl font-display font-bold text-secondary dark:text-white mb-4 border-b-2 border-primary pb-2">Categories</h3>
+<ul class="space-y-3">
+<li><a class="flex justify-between items-center hover:text-primary dark:hover:text-primary transition-colors" href="#"><span>Corporate Law</span> <span class="text-xs font-mono text-text-muted-light dark:text-text-muted-dark">(8)</span></a></li>
+<li><a class="flex justify-between items-center hover:text-primary dark:hover:text-primary transition-colors" href="#"><span>Litigation</span> <span class="text-xs font-mono text-text-muted-light dark:text-text-muted-dark">(5)</span></a></li>
+<li><a class="flex justify-between items-center hover:text-primary dark:hover:text-primary transition-colors" href="#"><span>Real Estate</span> <span class="text-xs font-mono text-text-muted-light dark:text-text-muted-dark">(12)</span></a></li>
+<li><a class="flex justify-between items-center hover:text-primary dark:hover:text-primary transition-colors" href="#"><span>Family Law</span> <span class="text-xs font-mono text-text-muted-light dark:text-text-muted-dark">(4)</span></a></li>
+<li><a class="flex justify-between items-center hover:text-primary dark:hover:text-primary transition-colors" href="#"><span>Intellectual Property</span> <span class="text-xs font-mono text-text-muted-light dark:text-text-muted-dark">(7)</span></a></li>
+</ul>
+</div>
+</div>
+</aside>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-secondary text-white dark:bg-black/50">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="md:col-span-1">
+<h3 class="text-lg font-display font-bold text-primary mb-2">Lex &amp; Co.</h3>
+<p class="text-sm text-text-muted-dark">Committed to providing expert legal solutions with integrity and dedication.</p>
+</div>
+<div>
+<h4 class="font-bold text-white mb-3">Quick Links</h4>
+<ul class="space-y-2 text-sm text-text-muted-dark">
+<li><a class="hover:text-primary transition-colors" href="#">About Us</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Practice Areas</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Our Team</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Contact</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-white mb-3">Contact Us</h4>
+<ul class="space-y-2 text-sm text-text-muted-dark">
+<li>123 Legal Ave, Suite 400</li>
+<li>Justice City, ST 54321</li>
+<li>(123) 456-7890</li>
+<li>contact@lexandco.com</li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-white mb-3">Follow Us</h4>
+<div class="flex space-x-4">
+<a class="text-text-muted-dark hover:text-primary transition-colors" href="#">
+<svg class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.323-1.325z"></path></svg>
+</a>
+<a class="text-text-muted-dark hover:text-primary transition-colors" href="#">
+<svg class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44 1.441-.645 1.441-1.44-.645-1.44-1.441-1.44z"></path></svg>
+</a>
+<a class="text-text-muted-dark hover:text-primary transition-colors" href="#">
+<svg class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616v.064c0 2.299 1.634 4.217 3.797 4.649-.65.177-1.352.23-2.063.177.604 1.956 2.343 3.377 4.404 3.417-1.72 1.354-3.86 2.164-6.148 2.164-.403 0-.799-.023-1.195-.069 2.189 1.407 4.812 2.22 7.646 2.22 9.16 0 14.164-7.604 13.97-14.164.887-.64 1.654-1.432 2.26-2.348z"></path></svg>
+</a>
+</div>
+</div>
+</div>
+<div class="mt-8 pt-8 border-t border-white/10 text-center text-sm text-text-muted-dark">
+<p>© 2024 Lex &amp; Co. All Rights Reserved. | Attorney Advertising.</p>
+</div>
+</div>
+</footer>
+</div>
+</body></html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Lex &amp; Co. - FAQ</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;family=Lato:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<style>
+        .font-serif { font-family: 'Playfair Display', serif; }
+        .font-sans { font-family: 'Lato', sans-serif; }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": {
+                            DEFAULT: "#0A2342"
+                        },
+                        "secondary": "#FFFFFF",
+                        "accent": "#D4AF37",
+                        "background-light": "#FFFFFF",
+                        "background-dark": "#051121",
+                        "text-light": "#0A2342",
+                        "text-dark": "#E0E0E0",
+                        "text-muted-light": "#556479",
+                        "text-muted-dark": "#A0AEC0",
+                    },
+                    fontFamily: {
+                        "display": ["Lato", "sans-serif"],
+                        "serif": ["Playfair Display", "serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-text-light dark:text-text-dark">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<!-- TopNavBar -->
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-primary/10 dark:border-accent/20 px-4 sm:px-10 md:px-20 lg:px-40 py-4 bg-background-light dark:bg-background-dark sticky top-0 z-50">
+<div class="flex items-center gap-4 text-primary dark:text-secondary">
+<div class="size-6 text-accent">
+<svg fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 2L1 9l4 2.18v6.32L1 20v2h22v-2l-4-2.5V11.18L23 9 12 2zm-2.83 15.7L5 15.52v-3.09l4.17 2.17c-.01.14-.02.28-.02.43 0 .9.21 1.75.58 2.52L9.17 17.7zm10.66 0l-4.17-2.18c.37-.77.58-1.62.58-2.52 0-.15-.01-.29-.02-.43L20 12.43v3.09l-4.17 2.18zM12 4.14L18.07 8h-12.14L12 4.14z"></path>
+</svg>
+</div>
+<h2 class="text-xl font-bold font-serif leading-tight tracking-[-0.015em] text-primary dark:text-secondary">Lex &amp; Co.</h2>
+</div>
+<div class="hidden md:flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-9">
+<a class="text-sm font-medium leading-normal hover:text-accent dark:hover:text-accent" href="#">Home</a>
+<a class="text-sm font-medium leading-normal hover:text-accent dark:hover:text-accent" href="#">About Us</a>
+<a class="text-sm font-medium leading-normal hover:text-accent dark:hover:text-accent" href="#">Practice Areas</a>
+<a class="text-sm font-medium leading-normal hover:text-accent dark:hover:text-accent" href="#">Attorneys</a>
+<a class="text-sm font-medium leading-normal hover:text-accent dark:hover:text-accent" href="#">Blog</a>
+<a class="font-bold text-accent dark:text-accent text-sm leading-normal" href="#">FAQ</a>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary dark:bg-accent text-secondary dark:text-primary text-sm font-bold leading-normal tracking-[0.015em] hover:opacity-90">
+<span class="truncate">Contact Us</span>
+</button>
+</div>
+<div class="md:hidden">
+<button class="text-primary dark:text-secondary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<main class="flex flex-1 justify-center py-10 md:py-20 px-4 sm:px-6 md:px-10 lg:px-40">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<!-- PageHeading -->
+<div class="flex flex-wrap justify-between gap-3 p-4 mb-8 text-center">
+<div class="flex w-full flex-col gap-3">
+<p class="font-serif text-4xl font-bold leading-tight tracking-[-0.033em] text-primary dark:text-secondary">Frequently Asked Questions</p>
+<p class="text-base font-normal leading-normal text-text-muted-light dark:text-text-muted-dark max-w-3xl mx-auto">Find answers to common questions about our services, processes, and fees. We believe in transparency and are here to provide the clarity you need.</p>
+</div>
+</div>
+<div class="flex flex-col gap-8">
+<!-- General & Initial Consultation Section -->
+<div>
+<h3 class="font-serif text-2xl font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-4 text-primary dark:text-secondary">General &amp; Initial Consultation</h3>
+<div class="flex flex-col p-4">
+<details class="flex flex-col border-b border-b-primary/10 dark:border-b-accent/20 py-3 group">
+<summary class="flex cursor-pointer list-none items-center justify-between gap-6 py-2">
+<p class="font-serif text-lg font-medium leading-normal text-primary dark:text-secondary">How do I schedule an initial consultation?</p>
+<div class="text-accent group-open:rotate-180 transition-transform">
+<span class="material-symbols-outlined">expand_more</span>
+</div>
+</summary>
+<p class="text-text-muted-light dark:text-text-muted-dark text-base font-normal leading-normal pb-2 pt-2">You can schedule a consultation by calling our office directly or by filling out the contact form on our website. Our team will get back to you promptly to arrange a convenient time.</p>
+</details>
+<details class="flex flex-col border-b border-b-primary/10 dark:border-b-accent/20 py-3 group">
+<summary class="flex cursor-pointer list-none items-center justify-between gap-6 py-2">
+<p class="font-serif text-lg font-medium leading-normal text-primary dark:text-secondary">What should I bring to my first meeting?</p>
+<div class="text-accent group-open:rotate-180 transition-transform">
+<span class="material-symbols-outlined">expand_more</span>
+</div>
+</summary>
+<p class="text-text-muted-light dark:text-text-muted-dark text-base font-normal leading-normal pb-2 pt-2">Please bring any documents relevant to your case, such as contracts, correspondence, police reports, or court notices. Also, a list of questions you have for the attorney can be very helpful. This ensures our time together is as productive as possible.</p>
+</details>
+<details class="flex flex-col border-b border-b-primary/10 dark:border-b-accent/20 py-3 group">
+<summary class="flex cursor-pointer list-none items-center justify-between gap-6 py-2">
+<p class="font-serif text-lg font-medium leading-normal text-primary dark:text-secondary">Is my consultation confidential?</p>
+<div class="text-accent group-open:rotate-180 transition-transform">
+<span class="material-symbols-outlined">expand_more</span>
+</div>
+</summary>
+<p class="text-text-muted-light dark:text-text-muted-dark text-base font-normal leading-normal pb-2 pt-2">Absolutely. All communications during your consultation are protected by attorney-client privilege, ensuring complete confidentiality, regardless of whether you decide to hire our firm.</p>
+</details>
+</div>
+</div>
+<!-- Billing & Fees Section -->
+<div>
+<h3 class="font-serif text-2xl font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-4 text-primary dark:text-secondary">Billing &amp; Fees</h3>
+<div class="flex flex-col p-4">
+<details class="flex flex-col border-b border-b-primary/10 dark:border-b-accent/20 py-3 group">
+<summary class="flex cursor-pointer list-none items-center justify-between gap-6 py-2">
+<p class="font-serif text-lg font-medium leading-normal text-primary dark:text-secondary">How does the firm charge for its services?</p>
+<div class="text-accent group-open:rotate-180 transition-transform">
+<span class="material-symbols-outlined">expand_more</span>
+</div>
+</summary>
+<p class="text-text-muted-light dark:text-text-muted-dark text-base font-normal leading-normal pb-2 pt-2">We offer various fee structures, including hourly rates, flat fees, and contingency fees, depending on the nature of the case. We will discuss the most suitable option for you during the initial consultation.</p>
+</details>
+<details class="flex flex-col border-b border-b-primary/10 dark:border-b-accent/20 py-3 group">
+<summary class="flex cursor-pointer list-none items-center justify-between gap-6 py-2">
+<p class="font-serif text-lg font-medium leading-normal text-primary dark:text-secondary">Are there any upfront costs or retainers?</p>
+<div class="text-accent group-open:rotate-180 transition-transform">
+<span class="material-symbols-outlined">expand_more</span>
+</div>
+</summary>
+<p class="text-text-muted-light dark:text-text-muted-dark text-base font-normal leading-normal pb-2 pt-2">For many cases, we require a retainer, which is an advance payment held in a trust account. Legal fees and costs are then deducted from this retainer as they are incurred. We provide detailed monthly invoices for full transparency.</p>
+</details>
+</div>
+</div>
+<!-- The Legal Process Section -->
+<div>
+<h3 class="font-serif text-2xl font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-4 text-primary dark:text-secondary">The Legal Process</h3>
+<div class="flex flex-col p-4">
+<details class="flex flex-col border-b border-b-primary/10 dark:border-b-accent/20 py-3 group">
+<summary class="flex cursor-pointer list-none items-center justify-between gap-6 py-2">
+<p class="font-serif text-lg font-medium leading-normal text-primary dark:text-secondary">How long will my case take?</p>
+<div class="text-accent group-open:rotate-180 transition-transform">
+<span class="material-symbols-outlined">expand_more</span>
+</div>
+</summary>
+<p class="text-text-muted-light dark:text-text-muted-dark text-base font-normal leading-normal pb-2 pt-2">The duration of a legal case varies significantly based on its complexity, the court's schedule, and the cooperation of the opposing party. We will provide you with an estimated timeline and keep you informed of any developments.</p>
+</details>
+<details class="flex flex-col border-b border-b-primary/10 dark:border-b-accent/20 py-3 group">
+<summary class="flex cursor-pointer list-none items-center justify-between gap-6 py-2">
+<p class="font-serif text-lg font-medium leading-normal text-primary dark:text-secondary">How will I be kept updated on the progress of my case?</p>
+<div class="text-accent group-open:rotate-180 transition-transform">
+<span class="material-symbols-outlined">expand_more</span>
+</div>
+</summary>
+<p class="text-text-muted-light dark:text-text-muted-dark text-base font-normal leading-normal pb-2 pt-2">We are committed to maintaining open communication. You will receive regular updates from your attorney via phone or email, and we are always available to answer any questions you may have about your case's status.</p>
+</details>
+</div>
+</div>
+</div>
+<!-- CTA Block -->
+<div class="mt-16 bg-primary/5 dark:bg-accent/10 rounded-xl p-8 md:p-12 text-center">
+<h2 class="font-serif text-3xl font-bold text-primary dark:text-secondary mb-4">Have a Different Question?</h2>
+<p class="text-text-muted-light dark:text-text-muted-dark mb-6 max-w-xl mx-auto">Our team is ready to provide the answers and guidance you need. Reach out to us for a personalized and confidential consultation.</p>
+<button class="flex mx-auto min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary dark:bg-accent text-secondary dark:text-primary text-base font-bold leading-normal tracking-[0.015em] hover:opacity-90">
+<span class="truncate">Schedule a Consultation</span>
+</button>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-primary text-secondary dark:bg-primary/95 dark:text-secondary/90 px-4 sm:px-10 md:px-20 lg:px-40 py-12">
+<div class="max-w-[960px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+<div>
+<h3 class="font-serif text-xl font-bold mb-4">Lex &amp; Co.</h3>
+<p class="text-sm text-secondary/70">Providing expert legal counsel with integrity and dedication since 1998.</p>
+</div>
+<div>
+<h3 class="font-serif text-lg font-bold mb-4">Quick Links</h3>
+<ul class="space-y-2 text-sm">
+<li><a class="hover:text-accent" href="#">About Us</a></li>
+<li><a class="hover:text-accent" href="#">Practice Areas</a></li>
+<li><a class="hover:text-accent" href="#">Attorneys</a></li>
+<li><a class="hover:text-accent" href="#">Contact</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-serif text-lg font-bold mb-4">Contact Us</h3>
+<ul class="space-y-2 text-sm text-secondary/70">
+<li>123 Legal Ave, Suite 400</li>
+<li>Justice City, ST 54321</li>
+<li>(123) 456-7890</li>
+<li>contact@lexandco.com</li>
+</ul>
+</div>
+</div>
+<div class="max-w-[960px] mx-auto mt-10 pt-6 border-t border-secondary/20 text-center text-sm text-secondary/60">
+<p>© 2024 Lex &amp; Co. All Rights Reserved. | Attorney Advertising</p>
+</div>
+</footer>
+</div>
+</div>
+</body></html>

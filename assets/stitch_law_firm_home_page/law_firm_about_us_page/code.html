@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>About Us - Lex &amp; Co.</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&amp;family=Lato:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<style>
+        body {
+            font-family: 'Lato', sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6, .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": { 
+                  DEFAULT: "#0A2342",
+                  "light": "#F8F9FA",
+              },
+              "secondary": "#FFFFFF",
+              "accent": "#D4AF37",
+              "text-primary": "#0A2342",
+              "text-secondary": "#495057",
+              "background-light": "#F8F9FA",
+              "background-dark": "#051221",
+            },
+            fontFamily: {
+              "display": ["Lato", "sans-serif"],
+              "serif": ["Playfair Display", "serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-text-secondary dark:text-gray-300">
+<div class="relative flex min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<!-- TopNavBar -->
+<header class="sticky top-0 z-50 bg-secondary/80 dark:bg-primary/80 backdrop-blur-sm shadow-sm">
+<div class="container mx-auto px-6">
+<div class="flex items-center justify-between whitespace-nowrap border-b border-solid border-gray-200/50 dark:border-gray-700/50 py-4">
+<div class="flex items-center gap-4 text-text-primary dark:text-secondary">
+<span class="material-symbols-outlined text-3xl text-accent">gavel</span>
+<h2 class="font-serif text-2xl font-bold leading-tight tracking-tight">Lex &amp; Co.</h2>
+</div>
+<nav class="hidden md:flex flex-1 justify-center items-center gap-9">
+<a class="text-text-primary dark:text-secondary text-sm font-medium leading-normal hover:text-accent dark:hover:text-accent transition-colors" href="#">Home</a>
+<a class="text-text-primary dark:text-secondary text-sm font-medium leading-normal hover:text-accent dark:hover:text-accent transition-colors" href="#">Practice Areas</a>
+<a class="text-text-primary dark:text-secondary text-sm font-medium leading-normal hover:text-accent dark:hover:text-accent transition-colors" href="#">Our Team</a>
+<a class="text-accent dark:text-accent text-sm font-bold leading-normal" href="#">About Us</a>
+<a class="text-text-primary dark:text-secondary text-sm font-medium leading-normal hover:text-accent dark:hover:text-accent transition-colors" href="#">Contact</a>
+</nav>
+<div class="flex items-center">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary dark:bg-accent text-secondary dark:text-primary text-sm font-bold leading-normal tracking-wide hover:opacity-90 transition-opacity">
+<span class="truncate">Contact Us</span>
+</button>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<!-- HeroSection -->
+<section class="relative">
+<div class="flex min-h-[520px] flex-col items-center justify-center bg-cover bg-center bg-no-repeat p-4" data-alt="Modern law firm office interior with large windows and a city view" style='background-image: linear-gradient(rgba(10, 35, 66, 0.7) 0%, rgba(10, 35, 66, 0.7) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBUFS2ZtnpN0gG1MYFssRpxn8QUxY3JyL6aTgxdeN2NeWnCU9xjP4_rBpDzogLIAvGnylLdoN6zzxy5N3J6in6ZHRv5zTGIK4UogjbrWKthHJEhH9okm-29HkrGfQ4TKua-PeGIi2Wl5gBdczS3ODmxcpUZKms2Zxz6RtQ25yQfDCoi8KKbG_6gzVbwOWO1e59nfBMcz1TNzxVI0t8fiz7RGBE6NkN1-5ZahQcQXxB6dBUPFEl9XGHMs6jabzYQ9LYgBod4Y93moy-I");'>
+<div class="flex max-w-3xl flex-col gap-4 text-center">
+<h1 class="font-serif text-5xl font-black leading-tight tracking-tight text-secondary md:text-6xl">A Legacy of Excellence</h1>
+<h2 class="text-secondary/90 text-lg font-normal leading-normal">Dedicated to providing unparalleled legal expertise and unwavering commitment to our clients for over fifty years.</h2>
+</div>
+</div>
+</section>
+<!-- Mission & Vision -->
+<section class="py-16 sm:py-24">
+<div class="container mx-auto max-w-4xl px-6 text-center">
+<h2 class="font-serif text-4xl font-bold leading-tight tracking-tight text-text-primary dark:text-secondary">Our Mission &amp; Vision</h2>
+<div class="mx-auto mt-4 h-1 w-20 bg-accent"></div>
+<p class="mt-8 text-lg font-normal leading-relaxed">
+                            Our mission is to deliver exceptional legal services with integrity, professionalism, and a deep understanding of our clients' needs. We strive to achieve the best possible outcomes through rigorous analysis, strategic thinking, and relentless advocacy, building lasting relationships based on trust and mutual respect.
+                        </p>
+</div>
+</section>
+<!-- Our Values -->
+<section class="bg-secondary dark:bg-primary py-16 sm:py-24">
+<div class="container mx-auto max-w-5xl px-6">
+<div class="text-center">
+<h2 class="font-serif text-4xl font-bold leading-tight tracking-tight text-text-primary dark:text-secondary">Our Values</h2>
+<div class="mx-auto mt-4 h-1 w-20 bg-accent"></div>
+</div>
+<div class="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
+<div class="flex flex-col items-center text-center p-6">
+<div class="flex h-16 w-16 items-center justify-center rounded-full bg-accent/10 dark:bg-accent/20">
+<span class="material-symbols-outlined text-3xl text-accent">shield</span>
+</div>
+<h3 class="mt-6 font-serif text-2xl font-bold text-text-primary dark:text-secondary">Integrity</h3>
+<p class="mt-2 text-base leading-relaxed">Upholding the highest ethical standards in every action we take and every piece of advice we give.</p>
+</div>
+<div class="flex flex-col items-center text-center p-6">
+<div class="flex h-16 w-16 items-center justify-center rounded-full bg-accent/10 dark:bg-accent/20">
+<span class="material-symbols-outlined text-3xl text-accent">target</span>
+</div>
+<h3 class="mt-6 font-serif text-2xl font-bold text-text-primary dark:text-secondary">Dedication</h3>
+<p class="mt-2 text-base leading-relaxed">Committing wholeheartedly to our clients' causes, providing tireless advocacy and support.</p>
+</div>
+<div class="flex flex-col items-center text-center p-6">
+<div class="flex h-16 w-16 items-center justify-center rounded-full bg-accent/10 dark:bg-accent/20">
+<span class="material-symbols-outlined text-3xl text-accent">lightbulb</span>
+</div>
+<h3 class="mt-6 font-serif text-2xl font-bold text-text-primary dark:text-secondary">Innovation</h3>
+<p class="mt-2 text-base leading-relaxed">Employing creative legal strategies and modern approaches to solve complex challenges.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Our History -->
+<section class="py-16 sm:py-24">
+<div class="container mx-auto max-w-4xl px-6">
+<div class="text-center">
+<h2 class="font-serif text-4xl font-bold leading-tight tracking-tight text-text-primary dark:text-secondary">Our History</h2>
+<div class="mx-auto mt-4 h-1 w-20 bg-accent"></div>
+</div>
+<div class="relative mt-12">
+<div class="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-gray-200 dark:bg-gray-700"></div>
+<div class="relative mt-8">
+<div class="flex justify-between items-center w-full">
+<div class="w-2/5">
+<div class="text-right">
+<h4 class="font-bold text-lg text-text-primary dark:text-secondary">1974</h4>
+<p class="mt-1">Lex &amp; Co. founded with a vision to serve the community.</p>
+</div>
+</div>
+<div class="relative z-10 flex h-4 w-4 items-center justify-center rounded-full bg-accent ring-4 ring-background-light dark:ring-background-dark"></div>
+<div class="w-2/5"></div>
+</div>
+</div>
+<div class="relative mt-8">
+<div class="flex justify-between items-center w-full">
+<div class="w-2/5"></div>
+<div class="relative z-10 flex h-4 w-4 items-center justify-center rounded-full bg-accent ring-4 ring-background-light dark:ring-background-dark"></div>
+<div class="w-2/5">
+<div class="text-left">
+<h4 class="font-bold text-lg text-text-primary dark:text-secondary">1995</h4>
+<p class="mt-1">Expanded practice to include corporate law, welcoming new partners.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="relative mt-8">
+<div class="flex justify-between items-center w-full">
+<div class="w-2/5">
+<div class="text-right">
+<h4 class="font-bold text-lg text-text-primary dark:text-secondary">2010</h4>
+<p class="mt-1">Won a landmark case that set a new precedent in intellectual property law.</p>
+</div>
+</div>
+<div class="relative z-10 flex h-4 w-4 items-center justify-center rounded-full bg-accent ring-4 ring-background-light dark:ring-background-dark"></div>
+<div class="w-2/5"></div>
+</div>
+</div>
+<div class="relative mt-8">
+<div class="flex justify-between items-center w-full">
+<div class="w-2/5"></div>
+<div class="relative z-10 flex h-4 w-4 items-center justify-center rounded-full bg-accent ring-4 ring-background-light dark:ring-background-dark"></div>
+<div class="w-2/5">
+<div class="text-left">
+<h4 class="font-bold text-lg text-text-primary dark:text-secondary">2024</h4>
+<p class="mt-1">Celebrating 50 years of unwavering commitment to justice and client success.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Meet Our Leadership -->
+<section class="bg-secondary dark:bg-primary py-16 sm:py-24">
+<div class="container mx-auto max-w-5xl px-6">
+<div class="text-center">
+<h2 class="font-serif text-4xl font-bold leading-tight tracking-tight text-text-primary dark:text-secondary">Meet Our Leadership</h2>
+<div class="mx-auto mt-4 h-1 w-20 bg-accent"></div>
+<p class="mt-6 max-w-2xl mx-auto text-lg">Our firm is led by a team of distinguished legal professionals with decades of combined experience and a shared passion for justice.</p>
+</div>
+<div class="mt-12 grid grid-cols-1 gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
+<div class="text-center">
+<img class="mx-auto h-48 w-48 rounded-full object-cover" data-alt="Professional headshot of Johnathan Doe" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUTkQ_v9F0wilG7NfW31ay3IHdrMAPJ8bQKXznmY1jNfh42e4P-3nkVYxoYNgLUw_0s_G91I7bOiy7IJc24jLZsQjlkg8BSv9-XJWFlxpHTVe6I5lEtvh_SMD6U2z1E_tvfS-VPgrtC27bMklAdqDIYykj1S80h-FcAMsSTVbq0PTaDgWEFKzj2OhbOaRf0mr545zJj3xxPsosEKQky_5AR-773tIf952PB2nSf7fETWSPdctLRS51DbLTo04Y_KRIB_Z1LOizpvw2"/>
+<h4 class="mt-6 font-serif text-xl font-bold text-text-primary dark:text-secondary">Johnathan Doe</h4>
+<p class="text-accent">Managing Partner</p>
+</div>
+<div class="text-center">
+<img class="mx-auto h-48 w-48 rounded-full object-cover" data-alt="Professional headshot of Jane Smith" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDimOXi9fzwYkc_WYuNroLR_pBWaiAbVnVtzX0padNbjDIU_DnWvuYPUflDgrA0J5xfAwK1_v4rpEvydyIWpucPF7Z6qOnyBQv8WCDHVhER7q8s3ZKPsdXZTL78gUUKkaRloQKsWD652Ikr2r2E0txfHUD7wWhltP2Ww16iwxF8z2fI8d55kIClXXSa9rD2NyUE-jmb-YDR7B9EGtt8HUjjhWzNStkVLbaXz5hQvDlUFaf_8Lf4ab97P6Y1ovuDgsUYJZQNvYm7ihIm"/>
+<h4 class="mt-6 font-serif text-xl font-bold text-text-primary dark:text-secondary">Jane Smith</h4>
+<p class="text-accent">Founding Partner</p>
+</div>
+<div class="text-center">
+<img class="mx-auto h-48 w-48 rounded-full object-cover" data-alt="Professional headshot of Michael Chen" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2zY4C-r0gVokLwVD4DpZh2pzQaDSWN0e2UBLeBL-HqdIkSMUM0SOpy8SwdpN4VWSdfvgQeKuQOior8BBXPlGKsPSspHIftxwrm-QkY2FYr9m2978PPZUJXE_xS24ET0yauPrPe4AULjDLNcoqu0oM-vSJba119r-mSSKASa9kfw1b8n4Qz5ApA2lNK9pYNXeOge0LqOXZl-LUYqnLRvPZ79W4aJRyGXzZd_qCGcqNPVPBSiPr4-zdaj189Vh_WFwwcxM2744EhzCd"/>
+<h4 class="mt-6 font-serif text-xl font-bold text-text-primary dark:text-secondary">Michael Chen</h4>
+<p class="text-accent">Senior Partner</p>
+</div>
+</div>
+<div class="mt-12 text-center">
+<a class="inline-block rounded-lg border-2 border-primary dark:border-accent px-8 py-3 text-sm font-bold uppercase tracking-wider text-primary dark:text-accent hover:bg-primary hover:text-secondary dark:hover:bg-accent dark:hover:text-primary transition-colors" href="#">Meet The Full Team</a>
+</div>
+</div>
+</section>
+<!-- Awards & Recognitions -->
+<section class="py-16 sm:py-24">
+<div class="container mx-auto px-6">
+<div class="text-center">
+<h2 class="font-serif text-4xl font-bold leading-tight tracking-tight text-text-primary dark:text-secondary">Awards &amp; Recognitions</h2>
+<div class="mx-auto mt-4 h-1 w-20 bg-accent"></div>
+</div>
+<div class="mt-12">
+<div class="flex items-center justify-around gap-8 overflow-x-auto">
+<img class="h-14 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all" data-alt="Award Logo 1" src="https://lh3.googleusercontent.com/aida-public/AB6AXuArZPG8BR5ypi6KgjUjtm0nfTgyvjj3ED17BsBvjTq3_QfikitvhSNhpY9WOHjymN_SUBUpjAqJNbTrE55jcGSgCv6pfs0RpU6QL4_Wq3IIxfJ6LCsGJ9u4JXJRx-IET1AnRLR5CjU1vl_OjyzrDmlDJdk0fDlAnciYjfZjUcPIq9AXZkgDGp6xX46YDrZ6ZiLKhls7Jto12uLgcs-pk_yJGksQBhwhx3bRv0IU0Jw2FFkeG4d_qzPCvY4Sx4Txd21slStrP8elQh_Q"/>
+<img class="h-14 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all" data-alt="Legal 500 Logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1lNIUyax6uMT_VaaG-Xu8HhSFrZbzFrnnuZGMrRLNriylxCKQzjMb__GHSs47vSR0-1XhxElmZVk1MUMfMcHT4L_u2m_6dcOHRKxYiUWuwsIeBG-_zj0AIc3vZ-dVC7HxOOSMIp-Tv9JOySyTKiSEupRfOgPh9ZCkQm6gS_DY8yQ83rGQaFvgdo-PrEtFFlQtGRYuUTfNHHp-8DqE3corn8iZWHaOoiWPnJNeVAuITPDvIuetPAAleXd8ViNKmi7Sv73CJZnYUvwc"/>
+<img class="h-14 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all" data-alt="Best Lawyers Logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTpW5XL0Mt-7EjTERVEg53pqicmps8baBT4w31QKm6jDIybF7oslZXmetkZHf7oDh7f5xov4nCL305wy7Y7vakpZkUEldciNYkbzm1N1I3HIrb4wGEBnVwdZyIX8WqvdxkAK5-BZCw5RRh5NPPKNcoQsmF8g2Qc0kcbd_7jyIVeShfOnUNE1csMGpMDNWKoY2gh2kDgCH_5Z5X-um2HALyZ8956fqoEDLeqKHdjAhNvgfRVWUle1HsgI7-mdAihEoteGdejSfE0V-G"/>
+<img class="h-14 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all" data-alt="Chambers and Partners Logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDK9Sx3CDd3n4ep78Q1kNtfgrElBUtflIju10p1lhyC9Z-o_YiYVMyEAG1BUHACNGjHPBMYoCjqNJQCCO1u-Fk_A8soWJgLZ60YNM0wKHgSG-8PfYNWFyYxB5QlDdkZLamCh2n2blvJj2_Sj5wOWawnHTK1NzPN5aQ5HVarEaypynZCoZBOEhTLhyVN8Era3oh-53zzEtsNRG2SPzVmarx8JMdAFSwoT3gKECOqW1Lr1tAYIZAehA6Q9tQSon_pBkjLQON8JtCjhb1Z"/>
+<img class="h-14 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all" data-alt="Super Lawyers Logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwetUL6hVV9zT6auncKU2bZDauhQdTKVP3o6MQ5OzU4dxUWKdQtuM56KztxZtGflRcKSZTAd3rSyb9ev0JgtYP6f1zHDIGMMBxx4iFP2OVTXS3rscpL53dfnnR_-fU5EQJBvZuXQDZMetXbeFMMQuFdeKTxjLSZBwn6NgHyzj_g0tZjpW4lL_hfCsyz9n29J0hIgyj9CYXTZZimEYG6gEcPqXzPPFMTsclJvKlIPHQtvDOViPqlQoRqlIH6rEc95_dB4RUabiqL1r7"/>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Block -->
+<section class="bg-primary dark:bg-primary/90 text-secondary py-16 sm:py-24">
+<div class="container mx-auto max-w-4xl px-6 text-center">
+<h2 class="font-serif text-4xl font-bold leading-tight tracking-tight">Ready to Discuss Your Case?</h2>
+<p class="mt-4 text-lg font-normal leading-relaxed text-secondary/80">Let our experience be your advantage. Schedule a confidential consultation with our team today to explore your legal options.</p>
+<div class="mt-8">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-accent text-primary text-base font-bold leading-normal tracking-wide mx-auto hover:opacity-90 transition-opacity">
+<span class="truncate">Schedule a Consultation</span>
+</button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-secondary dark:bg-primary/95 border-t border-gray-200/50 dark:border-gray-700/50">
+<div class="container mx-auto px-6 py-8">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+<div>
+<div class="flex items-center gap-4 text-text-primary dark:text-secondary">
+<span class="material-symbols-outlined text-2xl text-accent">gavel</span>
+<h2 class="font-serif text-xl font-bold leading-tight">Lex &amp; Co.</h2>
+</div>
+<p class="mt-4 text-sm">Providing expert legal counsel since 1974.</p>
+</div>
+<div>
+<h4 class="font-bold uppercase tracking-wider text-text-primary dark:text-secondary text-sm">Quick Links</h4>
+<ul class="mt-4 space-y-2">
+<li><a class="hover:text-accent dark:hover:text-accent transition-colors text-sm" href="#">Practice Areas</a></li>
+<li><a class="hover:text-accent dark:hover:text-accent transition-colors text-sm" href="#">Our Team</a></li>
+<li><a class="hover:text-accent dark:hover:text-accent transition-colors text-sm" href="#">Contact</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold uppercase tracking-wider text-text-primary dark:text-secondary text-sm">Contact Us</h4>
+<ul class="mt-4 space-y-2 text-sm">
+<li>123 Legal Ave, Suite 500</li>
+<li>New York, NY 10001</li>
+<li>(123) 456-7890</li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold uppercase tracking-wider text-text-primary dark:text-secondary text-sm">Follow Us</h4>
+<div class="mt-4 flex space-x-4">
+<a class="hover:text-accent dark:hover:text-accent transition-colors" href="#">
+<!-- Placeholder for social icon, like LinkedIn -->
+<svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24"><path clip-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" fill-rule="evenodd"></path></svg>
+</a>
+</div>
+</div>
+</div>
+<div class="mt-8 border-t border-gray-200/50 dark:border-gray-700/50 pt-8 text-center text-sm">
+<p>© 2024 Lex &amp; Co. All Rights Reserved. | Attorney Advertising</p>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
