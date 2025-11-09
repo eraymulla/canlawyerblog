@@ -41,8 +41,9 @@ export default function ContactPage() {
             İletişime Geçin
           </h1>
           <p className="mt-4 max-w-2xl mx-auto text-subtle-light dark:text-subtle-dark text-lg font-normal leading-normal">
-            Yardımcı olmak için buradayım. Davanızı tartışmak için bana ulaşın.
+            <span className="font-bold">Yılmaztürk Hukuk Bürosu</span> olarak yardımcı olmak için buradayız. Davanızı tartışmak için bize ulaşın.
           </p>
+          <p className="mt-2 text-subtle-light dark:text-subtle-dark text-base">Av. Ali Can Yılmaztürk</p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">

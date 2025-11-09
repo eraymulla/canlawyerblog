@@ -13,10 +13,13 @@ export default function Navigation() {
           <Link href="/" className="flex items-center gap-3 text-text-light dark:text-text-dark">
             <img 
               src="/logo.svg" 
-              alt="Av. Ali Can Yılmaztürk Logo" 
+              alt="Yılmaztürk Hukuk Bürosu Logo" 
               className="h-10 w-10"
             />
-            <h2 className="text-xl font-bold tracking-tighter font-display">Av. Ali Can Yılmaztürk</h2>
+            <div className="flex flex-col">
+              <h2 className="text-xl font-bold tracking-tighter font-display">Yılmaztürk Hukuk Bürosu</h2>
+              <p className="text-xs text-text-muted-light dark:text-text-muted-dark">Av. Ali Can Yılmaztürk</p>
+            </div>
           </Link>
           
           {/* Desktop Menu */}

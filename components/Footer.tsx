@@ -6,7 +6,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-lg font-bold font-display mb-4">Av. Ali Can Yılmaztürk</h3>
+            <h3 className="text-lg font-bold font-display mb-2">Yılmaztürk Hukuk Bürosu</h3>
+            <p className="text-text-muted-dark text-sm mb-4">Av. Ali Can Yılmaztürk</p>
             <p className="text-text-muted-dark text-sm">123 Adalet Caddesi,<br/>Suite 500, İstanbul, 34000</p>
             <p className="text-text-muted-dark text-sm mt-2">info@alicanyilmazturk.com</p>
             <p className="text-text-muted-dark text-sm">(0212) XXX XX XX</p>
@@ -55,7 +56,7 @@ export default function Footer() {
         </div>
         
         <div className="mt-8 border-t border-border-dark pt-8 text-center text-sm text-text-muted-dark">
-          <p>&copy; {new Date().getFullYear()} Av. Ali Can Yılmaztürk. Tüm hakları saklıdır. | <Link href="#" className="hover:text-primary">Gizlilik Politikası</Link> | Avukat Reklamı</p>
+          <p>&copy; {new Date().getFullYear()} Yılmaztürk Hukuk Bürosu. Tüm hakları saklıdır. | <Link href="#" className="hover:text-primary">Gizlilik Politikası</Link> | Avukat Reklamı</p>
         </div>
       </div>
     </footer>

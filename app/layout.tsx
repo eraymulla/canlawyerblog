@@ -4,8 +4,8 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Av. Ali Can Yılmaztürk - Hukuk Danışmanlığı",
-  description: "Avukat Ali Can Yılmaztürk'ün resmi blog sayfası. Hukuk danışmanlığı, yasal bilgiler ve güncel hukuk yazıları.",
+  title: "Yılmaztürk Hukuk Bürosu - Av. Ali Can Yılmaztürk",
+  description: "Yılmaztürk Hukuk Bürosu - Av. Ali Can Yılmaztürk. Hukuk danışmanlığı, yasal bilgiler ve güncel hukuk yazıları.",
 };
 
 export default function RootLayout({

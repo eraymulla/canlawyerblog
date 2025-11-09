@@ -26,11 +26,14 @@ export default function Home() {
       {/* Introduction & Primary CTA */}
       <div className="bg-background-light dark:bg-background-dark py-16 sm:py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-text-muted-light dark:text-text-muted-dark text-lg mb-8">
-            Yılların deneyimiyle, Av. Ali Can Yılmaztürk geniş bir yelpazede 
-            eşsiz hukuk uzmanlığı sunmaktadır. Müvekkillerim için mümkün olan en iyi sonuçları 
+          <p className="text-text-muted-light dark:text-text-muted-dark text-lg mb-4">
+            <span className="font-bold text-text-light dark:text-text-dark">Yılmaztürk Hukuk Bürosu</span> olarak, yılların deneyimiyle geniş bir yelpazede 
+            eşsiz hukuk uzmanlığı sunmaktayız. Müvekkillerimiz için mümkün olan en iyi sonuçları 
             elde etmeye, titiz temsil, stratejik danışmanlık ve sarsılmaz adanmışlık yoluyla 
-            bağlıyım.
+            bağlıyız.
+          </p>
+          <p className="text-text-muted-light dark:text-text-muted-dark text-base mb-8">
+            Av. Ali Can Yılmaztürk
           </p>
           <Link href="/iletisim">
             <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary text-[#0A2342] text-base font-bold leading-normal tracking-wide mx-auto hover:opacity-90 transition-opacity">

@@ -16,8 +16,9 @@ export default function AboutPage() {
               Mükemmellik Mirası
             </h1>
             <h2 className="text-secondary/90 text-lg font-normal leading-normal">
-              Yılların deneyimiyle müvekkillerime eşsiz hukuk uzmanlığı ve sarsılmaz bağlılık sunmaya adanmış.
+              <span className="font-bold">Yılmaztürk Hukuk Bürosu</span> olarak, yılların deneyimiyle müvekkillerimize eşsiz hukuk uzmanlığı ve sarsılmaz bağlılık sunmaya adanmış.
             </h2>
+            <p className="text-secondary/80 text-base mt-2">Av. Ali Can Yılmaztürk</p>
           </div>
         </div>
       </section>
